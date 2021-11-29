@@ -1,4 +1,5 @@
 from flask import Flask, request, flash, redirect,jsonify
+from waitress import serve
 from werkzeug.utils import secure_filename
 import os
 from ml import get_prediction
@@ -49,4 +50,4 @@ def upload_file():
 
 # The app will run in debug mode
 if __name__ == '__main__':
-    app.run(debug=True)
+    serve(app.run(debug=False))
