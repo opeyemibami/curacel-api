@@ -2,9 +2,8 @@ scikit-image==0.18.1
 numpy==1.19.5
 Pillow==8.2.0
 flask
-tensorflow-cpu==2.7.0
+tensorflow-cpu
 Werkzeug==2.0.2
 Keras
 waitress==2.0.0
 gunicorn
-tensorflow-cpu==2.7.0
