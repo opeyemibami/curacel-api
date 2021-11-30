@@ -1,5 +1,5 @@
 from flask import Flask, request, flash, redirect,jsonify
-from waitress import serve
+
 from werkzeug.utils import secure_filename
 import os
 from ml import get_prediction
