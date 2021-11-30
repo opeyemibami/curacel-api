@@ -6,3 +6,4 @@ Werkzeug==2.0.2
 Keras==2.4.3
 waitress==2.0.0
 gunicorn
+tensorflow-cpu==2.7.0
