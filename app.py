@@ -47,7 +47,3 @@ def upload_file():
             # Delete the file
             os.remove(filename)
         return resp
-
-# The app will run in debug mode
-if __name__ == '__main__':
-    serve(app.run(debug=False))
